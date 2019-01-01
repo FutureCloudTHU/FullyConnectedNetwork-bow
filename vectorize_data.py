@@ -242,7 +242,7 @@ if __name__ == '__main__':
     texts,labels = load_data(datapath=DATAPATH, filename=DATAFILE, keep_only_single_output=True)
 
 
-    preprocess = Preprocess(texts,labels,most_common=9000)
+    preprocess = Preprocess(texts,labels,most_common=3000)
     x, y = preprocess.get_xy()
 
     save(x,y,path='np_processed_data') # save x and y
