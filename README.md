@@ -8,4 +8,4 @@ load_train只是从原先数据提出输入和输出
 
 keras train：最基本的模型和训练
 
-调试方法：先跑vectorize(在main中把most common调成4000以下吧）,再跑keras_train
+调试方法：先跑vectorize_data.py,再跑keras_train.py
